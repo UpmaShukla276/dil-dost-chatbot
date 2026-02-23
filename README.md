@@ -1,11 +1,11 @@
-# 💛 Dil Dost – AI Mental Health Companion
+Dil Dost – AI Mental Health Companion
 
 Dil Dost is an AI-powered mental health chatbot built using **Streamlit** and **Machine Learning**.  
 It detects emotional states from user text and responds with empathetic, supportive messages — especially designed as a safe space for students.
 
 ---
 
-## 🌟 Project Overview
+ Project Overview
 
 Dil Dost uses Natural Language Processing (NLP) techniques to classify user input into emotional categories and provide mood-based supportive responses.
 
@@ -19,20 +19,20 @@ It combines:
 
 ## ✨ Features
 
-- 🧠 Mood detection using TF-IDF + Logistic Regression
-- 🎯 Detects 6 moods:
+ Mood detection using TF-IDF + Logistic Regression
+ 🎯 Detects 6 moods:
   - Sad
   - Happy
   - Anxious
   - Angry
   - Lonely
   - Neutral
-- 🔎 Keyword-based override system for improved emotional detection
-- 💬 Non-repeating empathetic responses
-- 🧘 Relaxation tips based on detected mood
-- 🎨 Custom styled Streamlit interface
-- 📊 Model classification report view
-- 📦 Built-in fallback dataset (if Kaggle dataset not available)
+- Keyword-based override system for improved emotional detection
+-  Non-repeating empathetic responses
+-  Relaxation tips based on detected mood
+-  Custom styled Streamlit interface
+-  Model classification report view
+-  Built-in fallback dataset (if Kaggle dataset not available)
 
 ---
 
@@ -69,7 +69,7 @@ If the Kaggle dataset CSV is not found locally, the system uses representative b
 
 ---
 
-## 🚀 How to Run the Project
+How to Run the Project
 
 ### 1️⃣ Clone the repository
 ```
@@ -82,7 +82,7 @@ cd dil-dost-chatbot
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the app
+Run the app
 ```
 streamlit run dil_dost_chatbot.py
 ```
@@ -91,7 +91,7 @@ The app will open in your browser.
 
 ---
 
-## 📈 Model Details
+ Model Details
 
 - Vectorizer: TF-IDF (1–3 grams, max_features=10000)
 - Classifier: Multinomial Logistic Regression
@@ -100,7 +100,7 @@ The app will open in your browser.
 
 ---
 
-## ⚠️ Disclaimer
+Disclaimer
 
 This chatbot is designed for educational and supportive purposes only.  
 It is **not a substitute for professional medical advice, diagnosis, or treatment**.
@@ -109,18 +109,11 @@ If you are experiencing severe emotional distress or suicidal thoughts, please c
 
 ---
 
-## 👩‍💻 Author
+Author
 
 **Upma Shukla**  
 Dil Dost – Mental Health Companion for Students
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 💛 Purpose
 
