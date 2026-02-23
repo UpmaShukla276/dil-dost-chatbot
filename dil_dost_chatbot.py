@@ -224,8 +224,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 pipeline = Pipeline([
     ("tfidf", TfidfVectorizer(ngram_range=(1, 3), max_features=10000,
                                sublinear_tf=True, min_df=1)),
-    ("clf",   LogisticRegression(max_iter=1000, C=3.0, solver="lbfgs",
-                                  multi_class="multinomial")),
+    ("clf", LogisticRegression(max_iter=1000, C=3.0)),
 ])
 pipeline.fit(X_train, y_train)
 
